@@ -9,5 +9,6 @@ def hello_t(array)
   end
  if array=nil
    puts "Hey! No block was given!
+ end
   array
 end
