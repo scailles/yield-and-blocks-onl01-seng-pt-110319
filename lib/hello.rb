@@ -7,7 +7,7 @@ def hello_t(array)
     yield(array[i])
     i = i + 1
   end
- when array=nil
+ when array.length==0
    puts "Hey! No block was given!
  end
 
